@@ -1,0 +1,415 @@
+.first-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.first-page > header {
+  width: 100%;
+  height: 15%;
+}
+.first-page > header > nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.first-page > header > nav > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.first-page > header > nav h3 {
+  width: 15%;
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+}
+.first-page > header > nav > ul {
+  width: 70%;
+}
+.first-page > header > nav > ul > li {
+  list-style-type: none;
+  padding: 0 28px;
+  transition: 0.3s;
+}
+.first-page > header > nav > ul > li:hover {
+  background-color: rgba(165, 194, 135, 0.4666666667);
+  border-radius: 10px;
+  padding: 15px;
+}
+.first-page > header > nav > ul > li > a {
+  font-family: 30px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.first-page > header > nav > ul > li > a:hover {
+  font-size: 20px;
+  color: rgb(185, 203, 188);
+  font-weight: bold;
+}
+.first-page > header > nav > span {
+  width: 15%;
+}
+.first-page > header > nav > span > a {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  transition: 0.3s;
+}
+.first-page > header > nav > span > a:hover {
+  color: rgb(180, 176, 170);
+  font-size: 30px;
+  border-bottom: 6px solid rgb(126, 122, 122);
+  border-radius: 6px;
+}
+.first-page > div {
+  width: 100%;
+  height: 85%;
+  display: flex;
+}
+.first-page > div > * {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.first-page > div > h1 {
+  width: 30%;
+  font-size: 80px;
+  padding: 20px;
+}
+.first-page > div > .box {
+  width: 40%;
+  width: 500px;
+  height: 450px;
+  border-radius: 30% 70% 70% 30%/40% 63% 37% 60%;
+  background-color: rgba(87, 98, 75, 0.4666666667);
+  position: absolute;
+  top: 27%;
+  left: 33.5%;
+  overflow: hidden;
+}
+.first-page > div > .box:hover > .figure::before {
+  transform: rotateX(90deg) translate(50%);
+}
+.first-page > div > .box:hover > .figure::after {
+  transform: rotateX(90deg) translate(-50%);
+}
+.first-page > div > .box > p {
+  padding: 20px;
+}
+.first-page > div > .box > .figure {
+  width: 100%;
+  height: 100%;
+}
+.first-page > div > .box > .figure::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-image: url(../img/Museo.jpg);
+  background-repeat: no-repeat;
+  background-size: 500px 450px;
+  transition: 0.3s;
+  border-radius: 40% 0 0 40%;
+}
+.first-page > div > .box > .figure::after {
+  content: "";
+  position: absolute;
+  top: 3.1px;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-image: url(../img/Museo2.jpg);
+  transform-origin: top;
+  background-repeat: no-repeat;
+  background-size: 500px 450px;
+  transition: 0.3s;
+  border-radius: 0 40% 40% 0;
+}
+.first-page > div > figure {
+  width: 40%;
+}
+.first-page > div > figure > img {
+  width: 500px;
+  height: 450px;
+  border-radius: 30% 70% 70% 30%/40% 63% 37% 60%;
+}
+.first-page > div > p {
+  width: 30%;
+  padding: 25px;
+  font-size: 18px;
+  text-align: center;
+  text-align: justify;
+}
+
+.second-page {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.second-page > div {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.second-page > div > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-page > div > figure:nth-of-type(1) {
+  width: 25%;
+}
+.second-page > div > figure:nth-of-type(1) > img {
+  width: 190px;
+  height: 260px;
+  border-radius: 50%;
+}
+.second-page > div > h3 {
+  width: 10%;
+  font-size: 90px;
+}
+.second-page > div > p {
+  width: 40%;
+  font-size: 20px;
+  text-align: center;
+  text-align: justify;
+  padding: 20px;
+  transition: 0.2s;
+}
+.second-page > div > p:hover {
+  color: rgb(180, 176, 170);
+  font-size: 24px;
+}
+.second-page > div > figure:nth-of-type(2) {
+  width: 25%;
+}
+.second-page > div > figure:nth-of-type(2) > img {
+  width: 220px;
+  height: 170px;
+  border-radius: 50%;
+}
+
+.third-page {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.third-page > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.third-page > div > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third-page > div > hgroup {
+  width: 45%;
+}
+.third-page > div > hgroup > h3 {
+  width: 25%;
+  padding: 9px;
+  font-size: 90px;
+}
+.third-page > div > hgroup > p {
+  width: 85%;
+  font-size: 20px;
+  text-align: center;
+  text-align: justify;
+  padding: 15px;
+  transition: 0.2s;
+}
+.third-page > div > hgroup > p:hover {
+  color: rgb(180, 176, 170);
+  font-size: 24px;
+}
+.third-page > div > figure {
+  width: 55%;
+}
+.third-page > div > figure > img {
+  width: 750px;
+  height: 380px;
+  border-radius: 50px;
+}
+
+.fourth-page {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.fourth-page > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.fourth-page > div > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fourth-page > div > figure {
+  width: 55%;
+}
+.fourth-page > div > figure > img {
+  width: 400px;
+  height: 500px;
+  border-radius: 50px;
+}
+.fourth-page > div > p {
+  width: 45%;
+  font-size: 27px;
+  text-align: center;
+  text-align: justify;
+  padding: 30px;
+}
+
+.fifth-page {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.fifth-page > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.fifth-page > div > h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  font-size: 35px;
+}
+.fifth-page > div > div {
+  width: 5%;
+}
+.fifth-page > div > form {
+  width: 40%;
+  text-decoration: none;
+  padding-top: 50px;
+}
+.fifth-page > div > form > input:nth-of-type(1) {
+  width: 500px;
+  font-size: 14px;
+  border-radius: 6px;
+  line-height: 1.5;
+  padding: 5px 10px;
+  transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+  border: 2px solid #dee1e2;
+  color: rgb(14, 14, 16);
+  background: #dee1e2;
+  display: block;
+  height: 36px;
+}
+.fifth-page > div > form > input:nth-of-type(2) {
+  width: 500px;
+  font-size: 14px;
+  border-radius: 6px;
+  line-height: 1.5;
+  padding: 5px 10px;
+  transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+  border: 2px solid #dee1e2;
+  color: rgb(14, 14, 16);
+  background: #dee1e2;
+  display: block;
+  height: 36px;
+}
+.fifth-page > div > form > input:nth-of-type(3) {
+  width: 500px;
+  font-size: 14px;
+  border-radius: 6px;
+  line-height: 1.5;
+  padding: 5px 10px;
+  transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+  border: 2px solid #dee1e2;
+  color: rgb(14, 14, 16);
+  background: #dee1e2;
+  display: block;
+  height: 36px;
+}
+.fifth-page > div > form > input:nth-of-type(4) {
+  border-radius: 10px;
+  width: 100px;
+  background: rgba(25, 83, 49, 0.6470588235);
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 1px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer {
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer > footer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.footer > footer > * {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.footer > footer > div {
+  width: 60%;
+  display: flex;
+}
+.footer > footer > div > figure {
+  width: 50%;
+}
+.footer > footer > div > figure > img {
+  width: 200px;
+  height: 290px;
+  border-radius: 53% 47% 30% 70%/62% 30% 70% 38%;
+}
+.footer > footer > div > h3 {
+  padding: 20px;
+  font-size: 35px;
+  transition: 0.2s;
+}
+.footer > footer > div > h3:hover {
+  border-radius: 40px;
+  color: rgb(20, 55, 36);
+  background-color: rgb(180, 176, 170);
+  font-size: 38px;
+}
+.footer > footer > hgroup {
+  width: 40%;
+}
+.footer > footer > hgroup > p:nth-of-type(1) {
+  font-size: 24px;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer > footer > hgroup > p:nth-of-type(2) {
+  font-size: 24px;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=stylesheet.css.map */
