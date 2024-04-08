@@ -8,4 +8,4 @@
 
 - Role - Frontend
 
-- How to reach me : with my [instagram](https://www.instagram.com/frontendneda) and [linkedin](https://www.linkedin.com/in/neda-mansouri)
+- How to reach me : with my [instagram](https://www.instagram.com/frontendneda) and [linkedin](https://www.linkedin.com/in/nedamansouri)
